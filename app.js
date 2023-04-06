@@ -1,6 +1,6 @@
 const http = require("http");
 const PORT = 5002 
-// my 5000 does not work
+// my 5000 does not work on a mac
 
 http.createServer((req,res)=>{
     res.writeHead(200, { "content-type": "text/html"});
